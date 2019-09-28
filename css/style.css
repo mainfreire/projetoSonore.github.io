@@ -31,7 +31,7 @@
 
 /* banner */
 .banner {background: url(../img/Sonore.png) no-repeat; height: 575px;}
-.title h3 {font-size: 2.5em; color: #fff; font-weight: 500; }
+.title h3 {font-size: 2.5em; color: #fff; font-weight: 500; text-shadow: 4px 4px 4px #aaa; }
 .title h6 {font-size: 1.5em; color: #fff;}
 /*.buttons {width: 100%; margin-top: 2%;}
 .buttons i {float: right;}

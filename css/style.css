@@ -30,7 +30,7 @@
 .menu li a: hover {border: 1px solid #fff;}
 
 /* banner */
-.banner {background: url(../img/Sonore.png) no-repeat; height: 575px;}
+.banner {background: url(../img/Sonore.png) no-repeat; height: 575px; display:block; content:""; clear:both;}
 .title h3 {font-size: 2.5em; color: #fff; font-weight: 500; text-shadow: 4px 4px 4px #aaa; }
 .title h6 {font-size: 1.5em; color: #fff;}
 /*.buttons {width: 100%; margin-top: 2%;}
@@ -64,6 +64,7 @@
 @media screen and (min-width: 480px) {
 	.logo {width: 214px; background: url(../img/logo.png) center center/214px no-repeat;}
 	.bnt {font-size: 2em;}
+	.banner {width:100%;}
 }
 
 /* small devices - tablets  */
@@ -87,6 +88,7 @@
 	.servico: nth-child(3) {margin-right: 0;}
 	.newsletter input {width: 60%; float: none;}
 	.newsletter button {width: 20%; float: none;}
+	.banner {width:50%;}
 }
 
 /* large devices - wide screens */

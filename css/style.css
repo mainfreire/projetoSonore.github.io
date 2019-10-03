@@ -64,7 +64,6 @@
 @media screen and (min-width: 480px) {
 	.logo {width: 214px; background: url(../img/logo.png) center center/214px no-repeat;}
 	.bnt {font-size: 2em;}
-	.banner {width:100%;}
 }
 
 /* small devices - tablets  */
@@ -88,7 +87,6 @@
 	.servico: nth-child(3) {margin-right: 0;}
 	.newsletter input {width: 60%; float: none;}
 	.newsletter button {width: 20%; float: none;}
-	.banner {width:50%;}
 }
 
 /* large devices - wide screens */

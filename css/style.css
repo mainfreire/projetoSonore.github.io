@@ -31,7 +31,14 @@
 .menu li a: hover {border: 1px solid #fff;}
 
 /* banner */
-.banner {background: url(../img/Sonore.png); height: 575px; width: 100%;}
+.banner {
+background: url(../img/Sonore.png);
+max-width: 1348px;   /* Máximo da largura da imagem */
+width: 100%;
+height: 578px;  /* Máximo da altura da imagem */
+min-height: auto;      /* Mínimo da altura, por padrão “auto” */
+background-size:100%;
+background-repeat: no-repeat;}
 .title h3 {font-size: 2.5em; color: #fff; font-weight: 500; text-shadow: 2 3 4 4;}
 .title h6 {font-size: 1.5em; color: #fff;}
 /*.buttons {width: 100%; margin-top: 2%;}
